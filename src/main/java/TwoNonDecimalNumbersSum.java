@@ -1,0 +1,17 @@
+package com.qualizeal.javaapp01.operation.sum;
+
+public class TwoNonDecimalNumbersSum {
+	public long add(int num1, int num2) {
+		var result = 0;
+		if (num1 < 0 || num2 < 0) {
+			result = -1;
+		}
+		if (num1 == 0 || num2 == 0) {
+			result = -2;
+		}
+		else {
+			result = num1 + num2;
+		}
+	return result;
+	}
+}

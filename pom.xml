@@ -97,6 +97,7 @@
 						<mainClass>com.qualizeal.App</mainClass>
 					</configuration>
 				</plugin>
+				
 			</plugins>
 		</pluginManagement>
 	</build>
